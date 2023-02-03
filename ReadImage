@@ -1,0 +1,4 @@
+import cv2
+path = 'leena.jpg'
+image = cv2.imread(path)
+print(type(image))
